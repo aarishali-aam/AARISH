@@ -1,27 +1,7 @@
-- name: Download APKs
+- name: Release APK
   # You may pin to the exact commit or the version.
-  # uses: Kingsman44/gh-apkmirror-dl@1244a385c9c60de06ed1f7154bce670c7ab23e70
-  uses: Kingsman44/gh-apkmirror-dl@v2.0
+  # uses: ShowMeThe/github_action_release@c03188563c3286ccd20cf0d2b1413a134e3cabc9
+  uses: ShowMeThe/github_action_release@v0.01
   with:
-    # Organization name
-    org: 
-    # Repository name
-    repo: 
-    # Specific version to download (optional, auto-detects latest if not provided)
-    version: # optional
-    # Regex pattern to match version (e.g., ".*-pixel" or ".*-gphone")
-    versionPattern: # optional
-    # Include alpha/beta versions when auto-detecting
-    includePrerelease: # optional, default is false
-    # Download app bundle (APKM) instead of APK
-    bundle: # optional, default is false
-    # Filter by CPU architecture (e.g., arm64-v8a, armeabi-v7a). If not specified, uses first available
-    arch: # optional
-    # Filter by screen DPI (e.g., nodpi, hdpi, xxhdpi). If not specified, uses first available
-    dpi: # optional
-    # Output filename. Supports template variables: ${version}, ${variant}, ${arch}, ${dpi}, ${minSdk}, ${signature}, ${date} (e.g., Google-Dialer-${minSdk}-${arch}.apk)
-    filename: # optional
-    # Overwrite existing file
-    overwrite: # optional, default is true
-    # Enable debug logging (set to "true" to enable)
-    DEBUG: # optional, default is false
+    # Github secret token to allow automated publishing of APK to release.
+    GITHUB_TOKEN: # optional
