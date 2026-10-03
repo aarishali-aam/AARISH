@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WorkAlarm</string>
+    <string name="channel_alarm_name">Work Alarms</string>
+    <string name="channel_alarm_description">Loud wake-up and shift notification alarms</string>
+    <string name="channel_break_name">Workplace Break Timers</string>
+    <string name="channel_break_description">Countdown timers for breaks and Pomodoro sessions</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_snooze">Snooze (10 min)</string>
+    <string name="alarm_ringing_title">Time for Work!</string>
+    <string name="alarm_ringing_msg">Your shift starts soon. Time to wake up and get ready.</string>
+</resources>

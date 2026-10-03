@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1E3A8A</color>
+    <color name="primary_variant">#1D4ED8</color>
+    <color name="secondary">#F59E0B</color>
+    <color name="background_dark">#0F172A</color>
+    <color name="surface_dark">#1E293B</color>
+    <color name="shift_morning">#F59E0B</color>
+    <color name="shift_day">#3B82F6</color>
+    <color name="shift_evening">#EC4899</color>
+    <color name="shift_night">#8B5CF6</color>
+    <color name="shift_off">#64748B</color>
+</resources>
